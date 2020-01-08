@@ -7,4 +7,4 @@ services:
       context: .
       args: [ http_proxy, https_proxy ]
     ports:
-      - "8040:80"
+      - "8080:80"
