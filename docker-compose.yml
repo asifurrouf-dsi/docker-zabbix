@@ -8,3 +8,5 @@ services:
       args: [ http_proxy, https_proxy ]
     ports:
       - "8080:80"
+    volumes:
+      - "/mnt/resource/zabbix/docker:/home/zabbix/docker/"
